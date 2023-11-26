@@ -1,0 +1,109 @@
+body{
+    margin: auto;
+}
+a:hover{
+    text-shadow: 2px 2px crimson;
+    background-color: cornflowerblue;
+}
+nav{
+    float: right;
+    list-style-type: none;
+    
+}
+#navigation{
+    display: flex;
+    margin-top: 25px;
+}
+#navigation a{
+    padding: 20px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+#head{
+    margin-left: 10px;
+    height: 70px;
+    width: 1200px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: cadetblue;
+}
+#second{
+    border: 2px solid black;
+    width: 1200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+.vertical-menu {
+    height:200px;
+    width: 300px;
+    background-color: #111;
+    overflow-x: hidden;
+    
+   
+  }
+  
+  .vertical-menu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: 2px solid white;
+    
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: black;
+    color: white;
+  }
+  #right{
+    width: 900px;
+    background-color: aliceblue;
+  }
+  #right p:hover{
+    transform: scale(1.1);
+  }
+
+  #third{
+    border: 2px solid black;
+    width: 1200px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+  }
+  .intro{
+    width:390px;
+    border: 2px solid black;
+    margin:10px;
+    background-color: black;
+    color: white;
+  }
+
+  .intro img{
+    height: 130px;
+    width: 130px;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .intro:hover{
+    transform: scale(1.5);
+    opacity: 2.5;
+    background-color: brown;
+  }
+
+  footer{
+    margin-left: 10px;
+    height: 60px;
+    width: 1200px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: cadetblue;
+  }
